@@ -1,0 +1,11 @@
+/* Webfont: AzoWeb-Bold */
+@font-face {
+  font-family: 'AzoSansWebBold';
+  src: url('AzoSansWeb-Bold.eot');
+  /* IE9 Compat Modes */
+  src: url('AzoSansWeb-Boldd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('AzoSansWeb-Bold.woff') format('woff'), /* Modern Browsers */ url('AzoSansWeb-Bold.ttf') format('truetype'), /* Safari, Android, iOS */ url('AzoSansWeb-Bold.svg#AzoWeb-Bold') format('svg');
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}

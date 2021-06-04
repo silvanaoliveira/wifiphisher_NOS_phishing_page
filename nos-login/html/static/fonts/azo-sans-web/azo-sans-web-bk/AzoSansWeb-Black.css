@@ -1,0 +1,11 @@
+/* Webfont: AzoWeb-Black */
+@font-face {
+  font-family: 'AzoSansWebBk';
+  src: url('AzoSansWeb-Black.eot');
+  /* IE9 Compat Modes */
+  src: url('AzoSansWeb-Blackd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('AzoSansWeb-Black.woff') format('woff'), /* Modern Browsers */ url('AzoSansWeb-Black.ttf') format('truetype'), /* Safari, Android, iOS */ url('AzoSansWeb-Black.svg#AzoWeb-Black') format('svg');
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
